@@ -38,21 +38,22 @@ Submit a GitHub repository with complete Q# and Python code for your project and
 ### Azure Quantum Development Kit and Resource Estimator documentation
 
 * [Set up Azure Quantum Development Kit](https://learn.microsoft.com/azure/quantum/install-overview-qdk) (we recommend setting up Visual Studio Code on your machine and using Python to analyze the resource estimates you get for your Q# code) 
-
 * [Introduction to Resource Estimator](https://learn.microsoft.com/azure/quantum/intro-to-resource-estimation) (official documentation) 
-
 * [Resource estimation samples](https://github.com/microsoft/qsharp/tree/main/samples/estimation) (GitHub repo) 
+* [Beverland et al. "Assessing requirements to scale to practical quantum advantage"](https://arxiv.org/abs/2211.07629) (details the theoretical background for Azure Quantum Resource Estimator) 
+* [Van Dam et al. "Using Azure Quantum Resource Estimator for Assessing Performance of Fault Tolerant Quantum Computation"](https://arxiv.org/abs/2311.05801)
 
-* [Assessing requirements to scale to practical quantum advantage](https://arxiv.org/abs/2211.07629) (details the theoretical background for Azure Quantum Resource Estimator) 
+### Examples of papers that use modern tools for quantum resource estimation
 
-* [Using Azure Quantum Resource Estimator for Assessing Performance of Fault Tolerant Quantum Computation](https://arxiv.org/abs/2311.05801) 
+* [Hansen et al. "Resource Estimation of Quantum Multiplication Algorithms"](https://arxiv.org/abs/2402.01891)
+* [Jaques et al. "Implementing Grover oracles for quantum key search on AES and LowMC"](https://arxiv.org/abs/1910.01700)
+* [Chen, Gupta "Towards efficient automatic oracle synthesis and resource estimation using QDK and QIR"](https://ieeexplore.ieee.org/document/10313630)
 
+### Additional examples of algorithms and good starting points for their exploration
 
-### Examples of papers that use automatic tools for quantum resource estimation: 
+* Quantum state preparation ([Shende et al. "Synthesis of Quantum Logic Circuits"](https://arxiv.org/abs/quant-ph/0406176))
+* Integer arithmetic ([Vedral et al. "Quantum Networks for Elementary Arithmetic Operations"](https://arxiv.org/abs/quant-ph/9511018))
+* Fixed-point arithmetic ([Häner et al. "Optimizing Quantum Circuits for Arithmetic"](https://arxiv.org/abs/1805.12445))
+* qRAM ([Jaques, Rattew "QRAM: A Survey and Critique"](https://arxiv.org/abs/2305.10310))
 
-* [Resource Estimation of Quantum Multiplication Algorithms](https://arxiv.org/abs/2402.01891)
-
-* [Implementing Grover oracles for quantum key search on AES and LowMC](https://arxiv.org/abs/1910.01700)
-
-* [Towards efficient automatic oracle synthesis and resource estimation using QDK and QIR](https://ieeexplore.ieee.org/document/10313630)
-
+Don't feel obliged to pick an algorithm or a specific paper from this list, though! There are plenty of other algorithms to explore and plenty of resources to use, especially if you're looking into comparing different implementations of the same algorithm. Search [arxiv.org](https://arxiv.org/) for papers detailing implementations of the algorithm you've chosen to work on.
