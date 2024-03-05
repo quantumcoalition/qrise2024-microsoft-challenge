@@ -39,7 +39,8 @@ Submit a GitHub repository with complete Q# and Python code for your project and
 
 * [Set up Azure Quantum Development Kit](https://learn.microsoft.com/azure/quantum/install-overview-qdk) (we recommend setting up Visual Studio Code on your machine and using Python to analyze the resource estimates you get for your Q# code) 
 * [Introduction to Resource Estimator](https://learn.microsoft.com/azure/quantum/intro-to-resource-estimation) (official documentation) 
-* [Resource estimation samples](https://github.com/microsoft/qsharp/tree/main/samples/estimation) (GitHub repo) 
+* [Resource estimation samples](https://github.com/microsoft/qsharp/tree/main/samples/estimation) (GitHub repo)
+* [Q# developer blog](https://devblogs.microsoft.com/qsharp/category/resource-estimation/) (blog posts highlighting specific resource estimation features)
 * [Beverland et al. "Assessing requirements to scale to practical quantum advantage"](https://arxiv.org/abs/2211.07629) (details the theoretical background for Azure Quantum Resource Estimator) 
 * [Van Dam et al. "Using Azure Quantum Resource Estimator for Assessing Performance of Fault Tolerant Quantum Computation"](https://arxiv.org/abs/2311.05801)
 
